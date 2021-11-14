@@ -75,7 +75,6 @@ msgstr "Lista de EAN13 para un producto."
 #. module: product_multi_ean
 #: model:ir.model.fields,field_description:product_multi_ean.field_product_product__barcode
 #, fuzzy
-#| msgid "EAN13"
 msgid "Main EAN13"
 msgstr "EAN13"
 
@@ -91,20 +90,17 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: product_multi_ean
-#: code:addons/product_multi_ean/models/product_product.py:51
+#: code:addons/product_multi_ean/models/product_product.py:39
 #, python-format
 msgid "The EAN13 Barcode \"%s\" already exists for product \"%s\""
 msgstr "El código EAN13 \"%s\" ya existe para el producto \"%s\""
 
-#. module: product_multi_ean
-#: code:addons/product_multi_ean/models/product_product.py:39
-#, python-format
-msgid ""
-"You provided an invalid \"EAN13 Barcode\" reference. You may use the "
-"\"Internal Reference\" field instead."
-msgstr ""
-"El \"código EAN13\" es inválido. Tal vez deba usar el campo \"Referencia "
-"interna\" en su lugar."
+#~ msgid ""
+#~ "You provided an invalid \"EAN13 Barcode\" reference. You may use the "
+#~ "\"Internal Reference\" field instead."
+#~ msgstr ""
+#~ "El \"código EAN13\" es inválido. Tal vez deba usar el campo \"Referencia "
+#~ "interna\" en su lugar."
 
 #~ msgid "True"
 #~ msgstr "True"
